@@ -1,9 +1,14 @@
 ## ClassificationRobot2022
 
-ubuntu 22.04
+Uploaded files are located at /home/meccabunny/robot_ws/src/robot_arm_controller/robot_arm_controller/
 
-ros humble
+Also yolov3.weights should be added to that directory too.
 
-yolov3
+link to download yolov3.weights: https://pjreddie.com/darknet/yolo/
 
-opencv 4.6.0
+The environment I used to develop this robot is ubuntu 22.04.
+
+ used ROS humble, yolov3, opencv 4.6.0
+
+
+ubuntu22.04 ros humble opencv 4.6.0
