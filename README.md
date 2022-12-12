@@ -10,4 +10,6 @@ link to download yolov3.weights: https://pjreddie.com/darknet/yolo/
 
 The environment I used to develop this robot is ubuntu 22.04. and the Open-source-software I used is ROS-humble, yolov3, opencv 4.6.0.
 
-"robotParts" file contains the stl file I used to 3d print the robot arm.
+"robotParts" contains the stl file I used to 3d print the robot arm.
+
+"robotArm" contains the arduino file for robot arm.
