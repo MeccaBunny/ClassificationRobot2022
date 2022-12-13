@@ -10,13 +10,13 @@ The environment I used to develop this robot is ubuntu 22.04. and the Open-sourc
 
 "robotParts" contains the stl file I used to 3d print this robot arm.
 
-"robotArm" contains the arduino file for robot arm. \n\n
+"robotArm" contains the arduino file for robot arm. <br/> <br/>
 
 
 
 To Activate a robot,
 
-First, Turn on 6 terminals in ubuntu. /n/n
+First, Turn on 6 terminals in ubuntu. <br/> <br/>
 
 
 
@@ -30,7 +30,7 @@ The reason for this error is because usb port connected to arduino cable is not 
 
 Copy and paste this command in 2nd terminal.
 
-$ sudo chmod a+rw /dev/ttyACM0 /n/n
+$ sudo chmod a+rw /dev/ttyACM0 <br/> <br/>
 
 
 
@@ -42,7 +42,7 @@ $ ros2 run robot_arm_controller actionBuf
 
 $ ros2 run robot_arm_controller inverse_kinematics
 
-$ ros2 run robot_arm_controller CameraToUV  /n/n
+$ ros2 run robot_arm_controller CameraToUV  <br/> <br/>
 
 
 
@@ -55,3 +55,6 @@ $ code .
 Meaning of this code is that you are turning on vscode in directory "~/robot_ws/src/".
 
 Then, run the python code, "ObjectDetectionCamera.py"
+
+<br/>
+
